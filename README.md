@@ -1,2 +1,2 @@
 # Leetcode Solution
-This provides c++ solution of questions.
+Best C++ solution of questions.
