@@ -31,3 +31,29 @@ public:
         return res;
     }
 };
+
+// ---------------------iterative-------------------------------
+
+class Solution {
+public:
+    void inorder(TreeNode* root, vector<int> &res) {
+        stack<TreeNode*> s;
+        TreeNode* curr=root;
+        while(curr || !s.empty()) {
+            while(curr) {
+                s.push(curr);
+                curr = curr->left;
+            }
+            curr = s.top();
+            s.pop();
+            res.push_back(curr->val);
+            curr = curr->right;
+        }
+    }
+    
+    vector<int> inorderTraversal(TreeNode* root) {
+        vector<int> res;
+        inorder(root,res);
+        return res;
+    }
+};
