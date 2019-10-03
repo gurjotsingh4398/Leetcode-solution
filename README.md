@@ -1,2 +1,3 @@
 # Leetcode Solution
-Best C++ solution of questions.
+Optimal solutions of Problems provided on Leetcode Platform.
+Language Used: C++.
