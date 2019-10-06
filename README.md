@@ -1,3 +1,5 @@
-# Leetcode Solution
-Optimal solutions of Problems provided on Leetcode Platform.
+# Leetcode Solutions
+*By Gurjot Singh*
+
+Optimal solutions to problems provided on Leetcode Platform.
 Language Used: C++.
